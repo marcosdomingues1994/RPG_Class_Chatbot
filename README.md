@@ -45,33 +45,16 @@ Following question 4, the user is directed to their class enlightenment screen, 
 In the event of a tie after question 4, the user will be directed to a 5th question to help break the tie. After this, the user is sent to the finish loop, where the journey ends.
 <img src="https://i.imgur.com/Lhtl9St.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
  </p>
-<h3>User Journey Simulation:</h3>
-
-<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
-  <div style="flex: 1 0 21%; margin-bottom: 10px; text-align: center;">
-    <img src="https://i.imgur.com/4KoCffo.png" height="auto" width="100%" alt="RPG_Class_Chatbot"/>
-  </div>
-  <div style="flex: 1 0 21%; margin-bottom: 10px; text-align: center;">
-    <img src="https://i.imgur.com/8NGz2eg.png" height="auto" width="100%" alt="RPG_Class_Chatbot"/>
-  </div>
-  <div style="flex: 1 0 21%; margin-bottom: 10px; text-align: center;">
-    <img src="https://i.imgur.com/Mum6eJV.png" height="auto" width="100%" alt="RPG_Class_Chatbot"/>
-  </div>
-  <div style="flex: 1 0 21%; margin-bottom: 10px; text-align: center;">
-    <img src="https://i.imgur.com/OQBwxdp.png" height="auto" width="100%" alt="RPG_Class_Chatbot"/>
-  </div>
-  <div style="flex: 1 0 21%; margin-bottom: 10px; text-align: center;">
-    <img src="https://i.imgur.com/bCDp9HK.png" height="auto" width="100%" alt="RPG_Class_Chatbot"/>
-  </div>
-  <div style="flex: 1 0 21%; margin-bottom: 10px; text-align: center;">
-    <img src="https://i.imgur.com/uhujxpt.png" height="auto" width="100%" alt="RPG_Class_Chatbot"/>
-  </div>
-  <div style="flex: 1 0 21%; margin-bottom: 10px; text-align: center;">
-    <img src="https://i.imgur.com/GINWZyk.png" height="auto" width="100%" alt="RPG_Class_Chatbot"/>
-  </div>
-  <div style="flex: 1 0 21%; margin-bottom: 10px; text-align: center;">
-    <img src="https://i.imgur.com/utMr43C.png" height="auto" width="100%" alt="RPG_Class_Chatbot"/>
-  </div>
+<h3>User Jorney Simulation:</h3>
+<div class="mosaico", display: inline-block>
+<img src="https://i.imgur.com/4KoCffo.png" height="30%" width="30%" alt="RPG_Class_Chatbot"/>
+<img src="https://i.imgur.com/8NGz2eg.png" height="30%" width="30%" alt="RPG_Class_Chatbot"/>
+<img src="https://i.imgur.com/Mum6eJV.png" height="30%" width="30%" alt="RPG_Class_Chatbot"/>
+<img src="https://i.imgur.com/OQBwxdp.png" height="30%" width="30%" alt="RPG_Class_Chatbot"/>
+<img src="https://i.imgur.com/bCDp9HK.png" height="30%" width="30%" alt="RPG_Class_Chatbot"/>
+<img src="https://i.imgur.com/uhujxpt.png" height="30%" width="30%" alt="RPG_Class_Chatbot"/>
+<img src="https://i.imgur.com/GINWZyk.png" height="30%" width="30%" alt="RPG_Class_Chatbot"/>
+<img src="https://i.imgur.com/utMr43C.png" height="30%" width="30%" alt="RPG_Class_Chatbot"/>
 </div>
 <!--
  ```diff
