@@ -19,7 +19,7 @@ This project is an interactive RPG chatbot built using Node-RED that guides user
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
+<h3>Launch the utility:</h3> <br/>
 In this flow, a user identification node is used to personalize the experience, ensuring that the chatbot recognizes and tailors the interaction to the user’s responses. Following this, a question node is introduced to verify if the user is ready to proceed with the adventure. If the user does not respond within a designated time (timeout), they are automatically redirected to the finish node, gracefully ending the interaction.
 <img src="https://i.imgur.com/YrzNf8r.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
 <br />
@@ -48,8 +48,8 @@ In the event of a tie after question 4, the user will be directed to a 5th quest
 <br />
 <br />
 <h3>User Jorney Simulation:</h3>
-<img src="https://i.imgur.com/4KoCffo.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
-<img src="https://i.imgur.com/8NGz2eg.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
+<img src="https://i.imgur.com/4KoCffo.png" height="30%" width="30%" alt="RPG_Class_Chatbot"/>
+<img src="https://i.imgur.com/8NGz2eg.png" height="40%" width="40%" alt="RPG_Class_Chatbot"/>
 <img src="https://i.imgur.com/Mum6eJV.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
 <img src="https://i.imgur.com/OQBwxdp.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
 <img src="https://i.imgur.com/bCDp9HK.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
