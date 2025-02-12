@@ -1,7 +1,5 @@
 <h1>The Oracle - RPG Character Selection Chatbot</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
-
 <h2>Description</h2>
 This project is an interactive RPG chatbot built using Node-RED that guides users through a decision-making process to determine if they will be allocated as a Mage or a Warrior. By engaging with an oracle-style chatbot, users are presented with a series of choices that reflect their preferences and personality, ultimately leading to their role selection. The chatbot provides an immersive, dynamic experience where each interaction influences the user's fate within the RPG world.
 <br />
@@ -49,13 +47,13 @@ In the event of a tie after question 4, the user will be directed to a 5th quest
 <br />
 <h3>User Jorney Simulation:</h3>
 <img src="https://i.imgur.com/4KoCffo.png" height="30%" width="30%" alt="RPG_Class_Chatbot"/>
-<img src="https://i.imgur.com/8NGz2eg.png" height="40%" width="40%" alt="RPG_Class_Chatbot"/>
-<img src="https://i.imgur.com/Mum6eJV.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
-<img src="https://i.imgur.com/OQBwxdp.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
-<img src="https://i.imgur.com/bCDp9HK.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
-<img src="https://i.imgur.com/uhujxpt.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
-<img src="https://i.imgur.com/GINWZyk.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
-<img src="https://i.imgur.com/utMr43C.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
+<img src="https://i.imgur.com/8NGz2eg.png" height="30%" width="30%" alt="RPG_Class_Chatbot"/>
+<img src="https://i.imgur.com/Mum6eJV.png" height="30%" width="30%" alt="RPG_Class_Chatbot"/>
+<img src="https://i.imgur.com/OQBwxdp.png" height="30%" width="30%" alt="RPG_Class_Chatbot"/>
+<img src="https://i.imgur.com/bCDp9HK.png" height="30%" width="30%" alt="RPG_Class_Chatbot"/>
+<img src="https://i.imgur.com/uhujxpt.png" height="30%" width="30%" alt="RPG_Class_Chatbot"/>
+<img src="https://i.imgur.com/GINWZyk.png" height="30%" width="30%" alt="RPG_Class_Chatbot"/>
+<img src="https://i.imgur.com/utMr43C.png" height="30%" width="30%" alt="RPG_Class_Chatbot"/>
 </p>
 
 <!--
