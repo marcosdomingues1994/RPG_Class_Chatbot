@@ -24,29 +24,38 @@ In this flow, a user identification node is used to personalize the experience, 
 <img src="https://i.imgur.com/YrzNf8r.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
 <br />
 <br />
-Jorney starts, first interaction:  <br/>
+<h3>Jorney starts, first interaction:</h3>  <br/>
 At the beginning of the journey, the user is presented with a scenario and given two possible actions to choose from. If the user fails to respond within the designated time, they are sent to the <b>inactivity loop</b>, effectively ending the interaction. For each choice the user makes, a corresponding <b>increment function</b> is triggered, keeping track of their score. Afterward, the user is directed to the next question, continuing the flow and further developing their path toward becoming either a Mage or a Warrior. <br/>
 <img src="https://i.imgur.com/AQgU5z9.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
 <img src="https://i.imgur.com/BRWbh45.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
 <br />
 <br />
-General overview: <br/>
+<h3>General overview:</h3> <br/>
 This section showcases the full branching logic of the user's choices. After question 3, the user's score in one of the classes may become high enough that the subsequent choice becomes irrelevant. In this case, the chatbot will display a message like:<br/>
 "Humm, parece que você já tem um caminho claro para trilhar. Mas antes de revelarmos seu destino, vamos para a última pergunta!"<br/>
 <img src="https://i.imgur.com/o45taG0.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
 <img src="https://i.imgur.com/mYplMJT.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
 <br />
 <br />
-Class enlightment:  <br/>
+<h3>Class enlightment:</h3>  <br/>
 Following question 4, the user is directed to their class enlightenment screen, where a brief text outlines their class's abilities and strengths. A picture representing the class persona is also displayed, alongside the finish component to conclude the interaction.
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
+<img src="https://i.imgur.com/1vunyjL.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
 <br />
 <br />
-Tiebreaker:  <br/>
+<h3>Tiebreaker:</h3>  <br/>
 In the event of a tie after question 4, the user will be directed to a 5th question to help break the tie. After this, the user is sent to the finish loop, where the journey ends.
 <img src="https://i.imgur.com/Lhtl9St.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
 <br />
 <br />
+<h3>User Jorney Simulation:</h3>
+<img src="https://i.imgur.com/4KoCffo.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
+<img src="https://i.imgur.com/8NGz2eg.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
+<img src="https://i.imgur.com/Mum6eJV.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
+<img src="https://i.imgur.com/OQBwxdp.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
+<img src="https://i.imgur.com/bCDp9HK.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
+<img src="https://i.imgur.com/uhujxpt.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
+<img src="https://i.imgur.com/GINWZyk.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
+<img src="https://i.imgur.com/utMr43C.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
 </p>
 
 <!--
