@@ -20,7 +20,7 @@ This project is an interactive RPG chatbot built using Node-RED that guides user
 <p align="center">
 Launch the utility: <br/>
 In this flow, a user identification node is used to personalize the experience, ensuring that the chatbot recognizes and tailors the interaction to the user’s responses. Following this, a question node is introduced to verify if the user is ready to proceed with the adventure. If the user does not respond within a designated time (timeout), they are automatically redirected to the finish node, gracefully ending the interaction.
-<img src="https://imgur.com/a/yihokwY" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
+<img src="[https://imgur.com/a/yihokwY](https://imgur.com/a/yihokwY)" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
 <br />
 <br />
 Select the disk:  <br/>
