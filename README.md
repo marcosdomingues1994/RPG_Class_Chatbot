@@ -21,13 +21,13 @@ This project is an interactive RPG chatbot built using Node-RED that guides user
 <p align="center">
 Launch the utility: <br/>
 In this flow, a user identification node is used to personalize the experience, ensuring that the chatbot recognizes and tailors the interaction to the user’s responses. Following this, a question node is introduced to verify if the user is ready to proceed with the adventure. If the user does not respond within a designated time (timeout), they are automatically redirected to the finish node, gracefully ending the interaction.
-<img src="https://imgur.com/q9Ox3e4" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
+<img src="https://imgur.com/YrzNf8r" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
 <br />
 <br />
 Jorney starts, first interaction:  <br/>
 At the beginning of the journey, the user is presented with a scenario and given two possible actions to choose from. If the user fails to respond within the designated time, they are sent to the <b>inactivity loop</b>, effectively ending the interaction. For each choice the user makes, a corresponding <b>increment function</b> is triggered, keeping track of their score. Afterward, the user is directed to the next question, continuing the flow and further developing their path toward becoming either a Mage or a Warrior.
-<img src="https://imgur.com/KPG0jjr" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
-<img src="https://imgur.com/HruRQ2J" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
+<img src="https://imgur.com/AQgU5z9" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
+<img src="https://imgur.com/BRWbh45" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
 <br />
 <br />
 Enter the number of passes: <br/>
