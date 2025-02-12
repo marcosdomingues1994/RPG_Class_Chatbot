@@ -21,33 +21,32 @@ This project is an interactive RPG chatbot built using Node-RED that guides user
 <p align="center">
 Launch the utility: <br/>
 In this flow, a user identification node is used to personalize the experience, ensuring that the chatbot recognizes and tailors the interaction to the user’s responses. Following this, a question node is introduced to verify if the user is ready to proceed with the adventure. If the user does not respond within a designated time (timeout), they are automatically redirected to the finish node, gracefully ending the interaction.
-<img src="https://imgur.com/YrzNf8r" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
+<img src="https://i.imgur.com/YrzNf8r.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
 <br />
 <br />
 Jorney starts, first interaction:  <br/>
-At the beginning of the journey, the user is presented with a scenario and given two possible actions to choose from. If the user fails to respond within the designated time, they are sent to the <b>inactivity loop</b>, effectively ending the interaction. For each choice the user makes, a corresponding <b>increment function</b> is triggered, keeping track of their score. Afterward, the user is directed to the next question, continuing the flow and further developing their path toward becoming either a Mage or a Warrior.
-<img src="https://imgur.com/AQgU5z9" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
-<img src="https://imgur.com/BRWbh45" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
+At the beginning of the journey, the user is presented with a scenario and given two possible actions to choose from. If the user fails to respond within the designated time, they are sent to the <b>inactivity loop</b>, effectively ending the interaction. For each choice the user makes, a corresponding <b>increment function</b> is triggered, keeping track of their score. Afterward, the user is directed to the next question, continuing the flow and further developing their path toward becoming either a Mage or a Warrior. <br/>
+<img src="https://i.imgur.com/AQgU5z9.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
+<img src="https://i.imgur.com/BRWbh45.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
+General overview: <br/>
+This section showcases the full branching logic of the user's choices. After question 3, the user's score in one of the classes may become high enough that the subsequent choice becomes irrelevant. In this case, the chatbot will display a message like:<br/>
+"Humm, parece que você já tem um caminho claro para trilhar. Mas antes de revelarmos seu destino, vamos para a última pergunta!"<br/>
+<img src="https://i.imgur.com/o45taG0.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
+<img src="https://i.imgur.com/mYplMJT.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
 <br />
 <br />
-Confirm your selection:  <br/>
+Class enlightment:  <br/>
+Following question 4, the user is directed to their class enlightenment screen, where a brief text outlines their class's abilities and strengths. A picture representing the class persona is also displayed, alongside the finish component to conclude the interaction.
 <img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
+Tiebreaker:  <br/>
+In the event of a tie after question 4, the user will be directed to a 5th question to help break the tie. After this, the user is sent to the finish loop, where the journey ends.
+<img src="https://i.imgur.com/Lhtl9St.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
 </p>
 
 <!--
