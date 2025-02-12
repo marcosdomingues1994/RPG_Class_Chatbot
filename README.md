@@ -45,6 +45,7 @@ In the event of a tie after question 4, the user will be directed to a 5th quest
 <img src="https://i.imgur.com/Lhtl9St.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
 <br />
 <br />
+ </p>
 <h3>User Jorney Simulation:</h3>
 <img src="https://i.imgur.com/4KoCffo.png" height="30%" width="30%" alt="RPG_Class_Chatbot"/>
 <img src="https://i.imgur.com/8NGz2eg.png" height="30%" width="30%" alt="RPG_Class_Chatbot"/>
@@ -54,7 +55,6 @@ In the event of a tie after question 4, the user will be directed to a 5th quest
 <img src="https://i.imgur.com/uhujxpt.png" height="30%" width="30%" alt="RPG_Class_Chatbot"/>
 <img src="https://i.imgur.com/GINWZyk.png" height="30%" width="30%" alt="RPG_Class_Chatbot"/>
 <img src="https://i.imgur.com/utMr43C.png" height="30%" width="30%" alt="RPG_Class_Chatbot"/>
-</p>
 
 <!--
  ```diff
