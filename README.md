@@ -1,16 +1,15 @@
-<h1>JWipe - Disk Sanitization</h1>
+<h1>The Oracle - RPG Character Selection Chatbot</h1>
 
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+This project is an interactive RPG chatbot built using Node-RED that guides users through a decision-making process to determine if they will be allocated as a Mage or a Warrior. By engaging with an oracle-style chatbot, users are presented with a series of choices that reflect their preferences and personality, ultimately leading to their role selection. The chatbot provides an immersive, dynamic experience where each interaction influences the user's fate within the RPG world.
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>Node.red</b>
 
 <h2>Environments Used </h2>
 
@@ -20,31 +19,32 @@ Project consists of a simple PowerShell script that walks the user through "zero
 
 <p align="center">
 Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+In this flow, a user identification node is used to personalize the experience, ensuring that the chatbot recognizes and tailors the interaction to the user’s responses. Following this, a question node is introduced to verify if the user is ready to proceed with the adventure. If the user does not respond within a designated time (timeout), they are automatically redirected to the finish node, gracefully ending the interaction.
+<img src="https://imgur.com/a/yihokwY" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
 <br />
 <br />
 Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
 <br />
 <br />
 Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
 <br />
 <br />
 Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
 <br />
 <br />
 Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
 <br />
 <br />
 Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
 <br />
 <br />
 Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="RPG_Class_Chatbot"/>
 </p>
 
 <!--
